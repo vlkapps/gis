@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lang name="Русский">
+  <data name="file" text="Файл"/>
+  <data name="view" text="Вид"/>
+  <data name="project" text="Проект"/>
+  <data name="instruments" text="Инструменты"/>
+  <data name="help" text="Справка"/>
+
+  <data name="ok" text="ОК"/>
+  <data name="cancel" text="Отмена"/>
+
+  <data name="create_project" text="Создать проект..."/>
+  <data name="open" text="Открыть проект..."/>
+  <data name="exit" text="Выход"/>
+
+  <data name="map" text="Вид карты"/>
+  <data name="map_panel" text="Панель управления картой"/>
+  <data name="main_panel" text="Главная панель"/>
+  <data name="status" text="Строка состояния"/>
+  <data name="fullscreen" text="На весь экран"/>
+
+  <data name="settings" text="Параметры..."/>
+  <data name="settings_" text="Параметры"/>
+
+  <data name="help_open" text="Просмотр справки"/>
+  <data name="about" text="О программе..."/>
+
+  <data name="zoom" text="Масштаб"/>
+  <data name="general" text="Общее"/>
+  <data name="satellites" text="Спутники"/>
+  <data name="position" text="Положение"/>
+  <data name="speed" text="Скорость"/>
+  <data name="import" text="Импорт"/>
+  <data name="curLoc" text="Текущее местоположение"/>
+  <data name="gps_data" text="Данные с приёмника"/>
+  <data name="markers" text="Маркеры"/>
+  <data name="rec" text="Запись маршрута"/>
+  <data name="receiver" text="Приёмник"/>
+
+  <data name="ready" text="Готово"/>
+
+  <data name="ui" text="Интерфейс"/>
+  <data name="language" text="Язык"/>
+  <data name="speed" text="Скорость"/>
+  <data name="kmh" text="км/ч"/>
+  <data name="ms" text="м/с"/>
+  <data name="sat_receiver" text="Спутниковый приёмник"/>
+  <data name="port" text="Порт"/>
+  <data name="test" text="Тест"/>
+  <data name="accuracy" text="Точность"/>
+
+  <data name="veryHigh" text="Очень высокая"/>
+  <data name="high" text="Высокая"/>
+  <data name="normal" text="Средняя"/>
+  <data name="low" text="Низкая"/>
+  <data name="veryLow" text="Очень низкая"/>
+  <data name="users" text="Пользовательская"/>
+
+  <data name="intervalRead" text="Чтение с интервалом: "/>
+  <data name="millisecond" text=" мс"/>
+
+  <data name="route" text="Маршрут"/>
+  <data name="smoothing_method" text="Метод сглаживания"/>
+  <data name="width_line" text="Ширина линии"/>
+  <data name="Maps" text="Карты"/>
+  <data name="map_provider" text="Поставщик карт"/>
+  <data name="map_scheme" text="Схема"/>
+  <data name="map_satellite" text="Спутник"/>
+  <data name="map_hybrid" text="Гибрид"/>
+
+  <data name="error" text="Ошибка!"/>
+  <data name="folder_exists" text="Папка уже существует"/>
+
+  <data name="s_c" text="ю.ш."/>
+  <data name="n_c" text="с.ш."/>
+  <data name="w_c" text="з.д."/>
+  <data name="e_c" text="в.д."/>
+
+  <data name="s_b" text="Ю"/>
+  <data name="n_b" text="С"/>
+  <data name="w_b" text="З"/>
+  <data name="e_b" text="В"/>
+
+  <data name="lat" text="Широта"/>
+  <data name="lng" text="Долгота"/>
+  <data name="north" text="северная"/>
+  <data name="east" text="восточная"/>
+  <data name="west" text="западная"/>
+  <data name="south" text="южная"/>
+
+  <data name="bearing" text="Пеленг"/>
+
+  <data name="name_project" text="Имя проекта"/>
+  <data name="uri" text="Путь"/>
+  <data name="explore" text="Обзор"/>
+  <data name="create" text="Создать"/>
+
+  <data name="enter_value" text="Ввести значения..."/>
+
+  <data name="version" text="версия "/>
+
+  <data name="author" text="Дизайн и разработка - Денис Волков"/>
+
+  <data name="aqua" text="голубой"/>
+  <data name="yellow" text="жёлтый"/>
+  <data name="green" text="зелёный"/>
+  <data name="red" text="красный"/>
+  <data name="orange" text="оранжевый"/>
+  <data name="pink" text="розовый"/>
+  <data name="blue" text="синий"/>
+  <data name="purple" text="фиолетовый"/>
+
+  <data name="location" text="Местоположение"/>
+  <data name="desc" text="Описание"/>
+  <data name="marker" text="Маркер"/>
+  <data name="images" text="Изображения"/>
+  <data name="add" text="Добавить"/>
+
+  <data name="edit" text="Изменить"/>
+  <data name="delete" text="Удалить"/>
+
+  <data name="receiver_not" text="Приёмник не подключен"/>
+  <data name="receiver_wait" text="Ожидание сообщения"/>
+</lang>

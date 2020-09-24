@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lang name="English">
+  <data name="file" text="File"/>
+  <data name="view" text="View"/>
+  <data name="project" text="Project"/>
+  <data name="instruments" text="Settings"/>
+  <data name="help" text="Help"/>
+
+  <data name="ok" text="OK"/>
+  <data name="cancel" text="Cancel"/>
+
+  <data name="create_project" text="Create project..."/>
+  <data name="open" text="Open project..."/>
+  <data name="exit" text="Exit"/>
+
+  <data name="map" text="Map view"/>
+  <data name="map_panel" text="Card control panel"/>
+  <data name="main_panel" text="Main panel"/>
+  <data name="status" text="Status bar"/>
+  <data name="fullscreen" text="Fullscreen"/>
+
+  <data name="settings" text="Settings..."/>
+  <data name="settings_" text="Settings"/>
+
+  <data name="help_open" text="View help"/>
+  <data name="about" text="About..."/>
+
+  <data name="zoom" text="Scale"/>
+  <data name="general" text="General"/>
+  <data name="satellites" text="Satellites"/>
+  <data name="position" text="Position"/>
+  <data name="speed" text="Speed"/>
+  <data name="import" text="Import"/>
+  <data name="curLoc" text="Current location"/>
+  <data name="gps_data" text="Data Receiver"/>
+  <data name="markers" text="Markers"/>
+  <data name="rec" text="Route record"/>
+  <data name="receiver" text="Receiver"/>
+
+  <data name="ready" text="Ready"/>
+
+  <data name="ui" text="UI"/>
+  <data name="language" text="Language"/>
+  <data name="speed" text="Speed"/>
+  <data name="kmh" text="km/h"/>
+  <data name="ms" text="m/s"/>
+  <data name="sat_receiver" text="Satellite receiver"/>
+  <data name="port" text="Port"/>
+  <data name="test" text="Test"/>
+  <data name="accuracy" text="Accuracy"/>
+
+  <data name="veryHigh" text="Very high"/>
+  <data name="high" text="High"/>
+  <data name="normal" text="Medium"/>
+  <data name="low" text="Low"/>
+  <data name="veryLow" text="Very low"/>
+  <data name="users" text="Custom"/>
+
+  <data name="intervalRead" text="Interval Reading: "/>
+  <data name="millisecond" text=" ms"/>
+
+  <data name="route" text="Route"/>
+  <data name="smoothing_method" text="Smoothing method"/>
+  <data name="width_line" text="Line width"/>
+  <data name="Maps" text="Maps"/>
+  <data name="map_provider" text="Map provider"/>
+  <data name="map_scheme" text="Scheme"/>
+  <data name="map_satellite" text="Satellite"/>
+  <data name="map_hybrid" text="Hybrid"/>
+
+  <data name="error" text="Error!"/>
+  <data name="folder_exists" text="The folder already exists"/>
+
+  <data name="lat" text="Latitude"/>
+  <data name="lng" text="Longitude"/>
+  <data name="north" text="North"/>
+  <data name="east" text="East"/>
+  <data name="west" text="West"/>
+  <data name="south" text="South"/>
+
+  <data name="s_c" text="S"/>
+  <data name="n_c" text="N"/>
+  <data name="w_c" text="W"/>
+  <data name="e_c" text="E"/>
+
+  <data name="s_b" text="S"/>
+  <data name="n_b" text="N"/>
+  <data name="w_b" text="W"/>
+  <data name="e_b" text="E"/>
+
+  <data name="bearing" text="Bearing"/>
+
+  <data name="name_project" text="Project name"/>
+  <data name="uri" text="Path"/>
+  <data name="explore" text="Browse"/>
+  <data name="create" text="Create"/>
+
+  <data name="enter_value" text="Enter values"/>
+
+  <data name="version" text="version "/>
+
+  <data name="author" text="Design and development by Denis Volkov"/>
+
+  <data name="aqua" text="aqua"/>
+  <data name="yellow" text="yellow"/>
+  <data name="green" text="green"/>
+  <data name="red" text="red"/>
+  <data name="orange" text="orange"/>
+  <data name="pink" text="pink"/>
+  <data name="blue" text="blue"/>
+  <data name="purple" text="purple"/>
+
+  <data name="location" text="Location"/>
+  <data name="desc" text="Description"/>
+  <data name="marker" text="Marker"/>
+  <data name="images" text="Images"/>
+  <data name="add" text="Add"/>
+
+  <data name="edit" text="Edit"/>
+  <data name="delete" text="Delete"/>
+
+  <data name="receiver_not" text="Receiver not connected"/>
+  <data name="receiver_wait" text="Waiting for a message"/>
+</lang>
