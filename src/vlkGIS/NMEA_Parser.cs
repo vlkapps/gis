@@ -148,52 +148,52 @@ namespace vlkGIS
 
         public string Get_RMC()
         {
-            return "Время:\r\n" + Get_RMC_Time() + "\r\n" + "\r\n" +
-                        "Широта:\r\n" + Get_RMC_Latitude_Deg().ToString().Replace("-1", "-") + "° " + Get_RMC_Latitude_Minute() + "' " + Math.Round(Get_RMC_Latitude_Sec(), 2).ToString().Replace("-1", "-") + "'', " + Get_RMC_Latitude_c_text() + "\r\n" + "\r\n" +
-                        "Долгота:\r\n" + Get_RMC_Longitude_Deg().ToString().Replace("-1", "-") + "° " + Get_RMC_Longitude_Minute() + "' " + Math.Round(Get_RMC_Longitude_Sec(), 2).ToString().Replace("-1", "-") + "'', " + Get_RMC_Longitude_c_text() + "\r\n" + "\r\n" +
-                        "Скорость:\r\n" + Get_RMC_Speed().ToString().Replace("-1", "-") + " уз." + "\r\n" + "\r\n" +
-                        "Путевой угол:\r\n" + Get_RMC_Heading().ToString().Replace("-1", "-") + "°" + "\r\n" + "\r\n" +
-                        "Дата:\r\n" + Get_RMC_Date() + "\r\n" + "\r\n" +
-                        "Магнитное склонение:\r\n" + Get_RMC_MagDec().ToString().Replace("-1", "-") + "°" + "\r\n" + "\r\n" +
-                        "Направление:\r\n" + Get_RMC_Route_text() + "\r\n" + "\r\n" +
-                        "Исходное сообщение:\r\n" + msg;
+            return Form1.lang.getString("time") + ":\r\n" + Get_RMC_Time() + "\r\n" + "\r\n" +
+                        Form1.lang.getString("lat") + ":\r\n" + Get_RMC_Latitude_Deg().ToString().Replace("-1", "-") + "° " + Get_RMC_Latitude_Minute() + "' " + Math.Round(Get_RMC_Latitude_Sec(), 2).ToString().Replace("-1", "-") + "'', " + Get_RMC_Latitude_c_text() + "\r\n" + "\r\n" +
+                        Form1.lang.getString("lng") + ":\r\n" + Get_RMC_Longitude_Deg().ToString().Replace("-1", "-") + "° " + Get_RMC_Longitude_Minute() + "' " + Math.Round(Get_RMC_Longitude_Sec(), 2).ToString().Replace("-1", "-") + "'', " + Get_RMC_Longitude_c_text() + "\r\n" + "\r\n" +
+                        Form1.lang.getString("speed") + ":\r\n" + Get_RMC_Speed().ToString().Replace("-1", "-") + " " + Form1.lang.getString("knot") + "\r\n" + "\r\n" +
+                        Form1.lang.getString("tr_angle") + ":\r\n" + Get_RMC_Heading().ToString().Replace("-1", "-") + "°" + "\r\n" + "\r\n" +
+                        Form1.lang.getString("date") + ":\r\n" + Get_RMC_Date() + "\r\n" + "\r\n" +
+                        Form1.lang.getString("magnetic") + ":\r\n" + Get_RMC_MagDec().ToString().Replace("-1", "-") + "°" + "\r\n" + "\r\n" +
+                        Form1.lang.getString("direction") + ":\r\n" + Get_RMC_Route_text() + "\r\n" + "\r\n" +
+                        Form1.lang.getString("orig_msg") + ":\r\n" + msg;
         }
 
         public string Get_GSV()
         {
-            return "Число сообщений:\r\n" + Get_GSV_Number_Len() + "\r\n" + "\r\n" +
-                        "Номер сообщения:\r\n" + Get_GSV_Number_Msg() + "\r\n" + "\r\n" +
-                        "Число видимых спутников:\r\n" + Get_GSV_Number_Sat() + "\r\n" + "\r\n" +
-                        "PRN номер спутника:\r\n" + Get_GSV_Prn() + "\r\n" + "\r\n" +
-                        "Высота:\r\n" + Get_GSV_Height() + "\r\n" + "\r\n" +
-                        "Азимут:\r\n" + Get_GSV_Azim() + "\r\n" + "\r\n" +
-                        "Отношение сигнал/шум:\r\n" + Get_GSV_Noise() + "\r\n" + "\r\n" +
-                        "Исходное сообщение:\r\n" + msg;
+            return Form1.lang.getString("num_of_msg") + ":\r\n" + Get_GSV_Number_Len() + "\r\n" + "\r\n" +
+                        Form1.lang.getString("num_msg") + ":\r\n" + Get_GSV_Number_Msg() + "\r\n" + "\r\n" +
+                        Form1.lang.getString("num_visible_sat") + ":\r\n" + Get_GSV_Number_Sat() + "\r\n" + "\r\n" +
+                        Form1.lang.getString("prn") + ":\r\n" + Get_GSV_Prn() + "\r\n" + "\r\n" +
+                        Form1.lang.getString("height") + ":\r\n" + Get_GSV_Height() + "\r\n" + "\r\n" +
+                        Form1.lang.getString("azim") + ":\r\n" + Get_GSV_Azim() + "\r\n" + "\r\n" +
+                        Form1.lang.getString("signal_noise") + ":\r\n" + Get_GSV_Noise() + "\r\n" + "\r\n" +
+                        Form1.lang.getString("orig_msg") + ":\r\n" + msg;
         }
 
         public string Get_GSA()
         {
-            return "Режим:\r\n" + Get_GSA_Type_1() + "\r\n" + "\r\n" +
-                        "Режим:\r\n" + Get_GSA_Type_2() + "\r\n" + "\r\n" +
-                        "Спутники:\r\n" + Get_GSA_Prn() + "\r\n" + "\r\n" +
-                        "PDOP:\r\n" + Get_GSA_PDOP().ToString().Replace("-1", "-") + "\r\n" + "\r\n" +
-                        "HDOP:\r\n" + Get_GSA_HDOP().ToString().Replace("-1", "-") + "\r\n" + "\r\n" +
-                        "VDOP:\r\n" + Get_GSA_VDOP().ToString().Replace("-1", "-") + "\r\n" + "\r\n" +
-                        "Исходное сообщение:\r\n" + msg;
+            return Form1.lang.getString("mode") + ":\r\n" + Get_GSA_Type_1() + "\r\n" + "\r\n" +
+                        Form1.lang.getString("mode") + ":\r\n" + Get_GSA_Type_2() + "\r\n" + "\r\n" +
+                        Form1.lang.getString("satellites") + ":\r\n" + Get_GSA_Prn() + "\r\n" + "\r\n" +
+                        Form1.lang.getString("pdop") + ":\r\n" + Get_GSA_PDOP().ToString().Replace("-1", "-") + "\r\n" + "\r\n" +
+                        Form1.lang.getString("hdop") + ":\r\n" + Get_GSA_HDOP().ToString().Replace("-1", "-") + "\r\n" + "\r\n" +
+                        Form1.lang.getString("vdop") + ":\r\n" + Get_GSA_VDOP().ToString().Replace("-1", "-") + "\r\n" + "\r\n" +
+                        Form1.lang.getString("orig_msg") + ":\r\n" + msg;
         }
 
         public string Get_GGA()
         {
-            return "Время:\r\n" + Get_GGA_Time() + "\r\n" + "\r\n" +
-                        "Широта:\r\n" + Get_GGA_Latitude_Deg().ToString().Replace("-1", "-") + "° " + Get_GGA_Latitude_Minute() + "' " + Math.Round(Get_GGA_Latitude_Sec(), 2).ToString().Replace("-1", "-") + "'', " + Get_GGA_Latitude_c_text() + "\r\n" + "\r\n" +
-                        "Долгота:\r\n" + Get_GGA_Longitude_Deg().ToString().Replace("-1", "-") + "° " + Get_GGA_Longitude_Minute() + "' " + Math.Round(Get_GGA_Longitude_Sec(), 2).ToString().Replace("-1", "-") + "'', " + Get_GGA_Longitude_c_text() + "\r\n" + "\r\n" +
-                        "Статус:\r\n" + Get_GGA_Status_text() + "\r\n" + "\r\n" +
-                        "Кол-во используемых спутников:\r\n" + Get_GGA_Sat_Used() + "\r\n" + "\r\n" +
-                        "HDOP:\r\n" + Get_GGA_HDOP().ToString().Replace("-1", "-") + "\r\n" + "\r\n" +
-                        "Высота антенны:\r\n" + Get_GGA_Height().ToString().Replace("-1", "-") + " " + Get_GGA_Height_Unit() + "\r\n" + "\r\n" +
-                        "Геоидальное различие:\r\n" + Get_GGA_Geo_Diff().ToString().Replace("-1", "-") + " " + Get_GGA_Geo_Diff_Unit() + "\r\n" + "\r\n" +
-                        "Возраст дифф. данных:\r\n" + Get_GGA_Diff_Age().ToString().Replace("-1", "-") + "\r\n" + "\r\n" +
-                        "Исходное сообщение:\r\n" + msg;
+            return Form1.lang.getString("time") + ":\r\n" + Get_GGA_Time() + "\r\n" + "\r\n" +
+                        Form1.lang.getString("lat") + ":\r\n" + Get_GGA_Latitude_Deg().ToString().Replace("-1", "-") + "° " + Get_GGA_Latitude_Minute() + "' " + Math.Round(Get_GGA_Latitude_Sec(), 2).ToString().Replace("-1", "-") + "'', " + Get_GGA_Latitude_c_text() + "\r\n" + "\r\n" +
+                        Form1.lang.getString("lng") + ":\r\n" + Get_GGA_Longitude_Deg().ToString().Replace("-1", "-") + "° " + Get_GGA_Longitude_Minute() + "' " + Math.Round(Get_GGA_Longitude_Sec(), 2).ToString().Replace("-1", "-") + "'', " + Get_GGA_Longitude_c_text() + "\r\n" + "\r\n" +
+                        Form1.lang.getString("status") + ":\r\n" + Get_GGA_Status_text() + "\r\n" + "\r\n" +
+                        Form1.lang.getString("num_sat") + ":\r\n" + Get_GGA_Sat_Used() + "\r\n" + "\r\n" +
+                        Form1.lang.getString("hdop") + ":\r\n" + Get_GGA_HDOP().ToString().Replace("-1", "-") + "\r\n" + "\r\n" +
+                        Form1.lang.getString("antenna_height") + ":\r\n" + Get_GGA_Height().ToString().Replace("-1", "-") + " " + Get_GGA_Height_Unit() + "\r\n" + "\r\n" +
+                        Form1.lang.getString("geo_diff") + ":\r\n" + Get_GGA_Geo_Diff().ToString().Replace("-1", "-") + " " + Get_GGA_Geo_Diff_Unit() + "\r\n" + "\r\n" +
+                        Form1.lang.getString("age_diff") + ":\r\n" + Get_GGA_Diff_Age().ToString().Replace("-1", "-") + "\r\n" + "\r\n" +
+                        Form1.lang.getString("orig_msg") + ":\r\n" + msg;
         }
 
 
@@ -292,9 +292,9 @@ namespace vlkGIS
         public string Get_RMC_Latitude_c_text()
         {
             if (Get_RMC_Latitude_c() == "N")
-                return "северная";
+                return Form1.lang.getString("north");
             else if (Get_RMC_Latitude_c() == "S")
-                return "южная";
+                return Form1.lang.getString("south");
             else
                 return "?";
         }
@@ -353,9 +353,9 @@ namespace vlkGIS
         public string Get_RMC_Longitude_c_text()
         {
             if (Get_RMC_Longitude_c() == "E")
-                return "восточная";
+                return Form1.lang.getString("east");
             else if (Get_RMC_Longitude_c() == "W")
-                return "западная";
+                return Form1.lang.getString("west");
             else
                 return "?";
         }
@@ -373,9 +373,9 @@ namespace vlkGIS
         public string Get_RMC_Speed_Text()
         {
             if (Get_RMC_Speed() > -1)
-                return (Get_RMC_Speed() * 1.852) + " км/ч";
+                return (Get_RMC_Speed() * 1.852) + " " + Form1.lang.getString("kmh");
             else
-                return "--- км/ч";
+                return "--- " + Form1.lang.getString("kmh");
         }
 
         // Получить путевой угол
@@ -436,9 +436,9 @@ namespace vlkGIS
         public string Get_RMC_Route_text()
         {
             if (rmc_route == "E")
-                return "запад";
+                return Form1.lang.getString("east_");
             else if (rmc_route == "W")
-                return "восток";
+                return Form1.lang.getString("west_");
             else
                 return "?";
         }
@@ -554,16 +554,16 @@ namespace vlkGIS
                 {
                     if (gsv_noise[i] == "")
                         gsv_noise[i] = "-";
-                    n += gsv_noise[i] + " дБ,";
+                    n += gsv_noise[i] + " " + Form1.lang.getString("db") + ",";
                 }
 
                 if (n != "")
                     return n.TrimEnd(',');
                 else
-                    return "- дБ,- дБ,- дБ,- дБ";
+                    return "- " + Form1.lang.getString("db") + ",- " + Form1.lang.getString("db") + ",- " + Form1.lang.getString("db") + ",- " + Form1.lang.getString("db");
             }
             else
-                return "- дБ,- дБ,- дБ,- дБ";
+                return "- " + Form1.lang.getString("db") + ",- " + Form1.lang.getString("db") + ",- " + Form1.lang.getString("db") + ",- " + Form1.lang.getString("db");
         }
         #endregion
 
@@ -577,9 +577,9 @@ namespace vlkGIS
             if (gsa_type_1 != "")
             {
                 if (gsa_type_1 == "M")
-                    return "ручной";
+                    return Form1.lang.getString("manual");
                 else if (gsa_type_1 == "A")
-                    return "авто";
+                    return Form1.lang.getString("auto");
                 else
                     return "-";
             }
@@ -592,7 +592,7 @@ namespace vlkGIS
             if (gsa_type_2 != "")
             {
                 if (gsa_type_2 == "1")
-                    return "Место. не определено";
+                    return Form1.lang.getString("loc_undef");
                 else if (gsa_type_2 == "2")
                     return "2D";
                 else if (gsa_type_2 == "3")
@@ -761,9 +761,9 @@ namespace vlkGIS
         public string Get_GGA_Latitude_c_text()
         {
             if (Get_GGA_Latitude_c() == "N")
-                return "северная";
+                return Form1.lang.getString("north");
             else if (Get_GGA_Latitude_c() == "S")
-                return "южная";
+                return Form1.lang.getString("south");
             else
                 return "?";
         }
@@ -822,9 +822,9 @@ namespace vlkGIS
         public string Get_GGA_Longitude_c_text()
         {
             if (Get_GGA_Longitude_c() == "E")
-                return "восточная";
+                return Form1.lang.getString("east");
             else if (Get_GGA_Longitude_c() == "W")
-                return "западная";
+                return Form1.lang.getString("west");
             else
                 return "?";
         }
@@ -832,13 +832,13 @@ namespace vlkGIS
         public string Get_GGA_Status_text()
         {
             if (gga_status == "0")
-                return "0 = Определение местоп. не возможно";
+                return Form1.lang.getString("pos_acc_a");
             else if (gga_status == "1")
-                return "1 = Обычная точность";
+                return Form1.lang.getString("pos_acc_b");
             else if (gga_status == "2")
-                return "2 = Дифференциальный GPS режим";
+                return Form1.lang.getString("pos_acc_c");
             else if (gga_status == "3")
-                return "3 = GPS режим прецизионной точности";
+                return Form1.lang.getString("pos_acc_d");
             else
                 return "-";
         }
@@ -870,7 +870,7 @@ namespace vlkGIS
         public string Get_GGA_Height_Unit()
         {
             if (gga_height_unit == "M")
-                return "м.";
+                return Form1.lang.getString("meter");
             else
                 return "?";
         }
@@ -886,7 +886,7 @@ namespace vlkGIS
         public string Get_GGA_Geo_Diff_Unit()
         {
             if (gga_unit_diff == "M")
-                return "м.";
+                return Form1.lang.getString("meter");
             else
                 return "?";
         }

@@ -203,7 +203,7 @@ namespace vlkGIS
                     }
                     else
                     {
-                        MessageBox.Show("Файл с данным именем уже существует", "Ошибка!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show(Form1.lang.getString("file_name_exists"), Form1.lang.getString("error"), MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                 }
             }

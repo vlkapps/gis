@@ -72,6 +72,10 @@ namespace vlkGIS
             comboBox4.Items.AddRange(new string[] { lang.getString("veryHigh"), lang.getString("high"), lang.getString("normal"), lang.getString("low"), lang.getString("veryLow"), lang.getString("users") });
             comboBox4.SelectedIndex = Form1.GPS_Accuracy;
 
+            comboBox6.Items.Clear();
+            comboBox6.Items.AddRange(new string[] { lang.getString("smooth_a"), lang.getString("smooth_b") });
+            comboBox6.SelectedIndex = Form1.SmoothingType;
+
             groupBox3.Text = lang.getString("route");
             label8.Text = lang.getString("smoothing_method");
             label5.Text = lang.getString("width_line");

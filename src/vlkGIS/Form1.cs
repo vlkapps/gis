@@ -328,6 +328,8 @@ namespace vlkGIS
             StatusToolStripMenuItem.Text = lang.getString("status");
             Fullscreen_ToolStripMenuItem.Text = lang.getString("fullscreen");
 
+            MarkerAdd_toolStripButton.Text = lang.getString("new_marker");
+
             toolStripLabel1.Text = lang.getString("bearing");
 
             SettingsToolStripMenuItem.Text = lang.getString("settings");
@@ -346,6 +348,8 @@ namespace vlkGIS
             panel1.Tag = lang.getString("markers").ToUpper();
             RecStop_toolStripButton.Text = lang.getString("rec");
             GPS_indicator.Text = lang.getString("receiver");
+
+            label10.Text = "--- " + lang.getString("kmh");
 
             ToolStripLabelTextTemp = lang.getString("ready");
             toolStripStatusLabel1.Text = ToolStripLabelTextTemp;
@@ -510,13 +514,13 @@ namespace vlkGIS
                 else
                 {
                     status = 0;
-                    GGA_textBox.Text = RMC_textBox.Text = GSV_textBox.Text = GSA_textBox.Text = "Ожидание приёмника";
+                    GGA_textBox.Text = RMC_textBox.Text = GSV_textBox.Text = GSA_textBox.Text = lang.getString("receiver_wait_");
                 }
             }
             else
             {
                 status = -1;
-                GGA_textBox.Text = RMC_textBox.Text = GSV_textBox.Text = GSA_textBox.Text = "Приёмник не подключен";
+                GGA_textBox.Text = RMC_textBox.Text = GSV_textBox.Text = GSA_textBox.Text = lang.getString("receiver_not");
             }
 
             IndicatorUI(GPS_indicator, status);

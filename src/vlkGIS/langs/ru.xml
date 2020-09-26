@@ -37,6 +37,8 @@
   <data name="rec" text="Запись маршрута"/>
   <data name="receiver" text="Приёмник"/>
 
+  <data name="new_marker" text="Новый маркер"/>
+
   <data name="ready" text="Готово"/>
 
   <data name="ui" text="Интерфейс"/>
@@ -59,6 +61,9 @@
   <data name="intervalRead" text="Чтение с интервалом: "/>
   <data name="millisecond" text=" мс"/>
 
+  <data name="smooth_a" text="Среднее простое"/>
+  <data name="smooth_b" text="Среднее взешенное"/>
+  
   <data name="route" text="Маршрут"/>
   <data name="smoothing_method" text="Метод сглаживания"/>
   <data name="width_line" text="Ширина линии"/>
@@ -70,6 +75,7 @@
 
   <data name="error" text="Ошибка!"/>
   <data name="folder_exists" text="Папка уже существует"/>
+  <data name="file_name_exists" text="Файл с данным именем уже существует"/>
 
   <data name="s_c" text="ю.ш."/>
   <data name="n_c" text="с.ш."/>
@@ -96,6 +102,7 @@
   <data name="create" text="Создать"/>
 
   <data name="enter_value" text="Ввести значения..."/>
+  <data name="enter_value_error" text="Введены неверные значения"/>
 
   <data name="version" text="версия "/>
 
@@ -121,4 +128,41 @@
 
   <data name="receiver_not" text="Приёмник не подключен"/>
   <data name="receiver_wait" text="Ожидание сообщения"/>
+  <data name="receiver_wait_" text="Ожидание приёмника"/>
+
+  <data name="time" text="Время"/>
+  <data name="tr_angle" text="Путевой угол"/>
+  <data name="date" text="Дата"/>
+  <data name="magnetic" text="Магнитное склонение"/>
+  <data name="direction" text="Направление"/>
+  <data name="orig_msg" text="Исходное сообщение"/>
+  <data name="num_of_msg" text="Число сообщений"/>
+  <data name="num_msg" text="Номер сообщения"/>
+  <data name="num_visible_sat" text="Число видимых спутников"/>
+  <data name="prn" text="PRN номер спутника"/>
+  <data name="height" text="Высота"/>
+  <data name="azim" text="Азимут"/>
+  <data name="signal_noise" text="Отношение сигнал/шум"/>
+  <data name="mode" text="Режим"/>
+  <data name="satellites" text="Спутники"/>
+  <data name="pdop" text="PDOP"/>
+  <data name="hdop" text="HDOP"/>
+  <data name="vdop" text="VDOP"/>
+  <data name="status" text="Статус"/>
+  <data name="num_sat" text="Кол-во используемых спутников"/>
+  <data name="antenna_height" text="Высота антенны"/>
+  <data name="geo_diff" text="Геоидальное различие"/>
+  <data name="age_diff" text="Возраст дифф. данных"/>
+  <data name="west_" text="запад"/>
+  <data name="east_" text="восток"/>
+  <data name="db" text="дБ"/>
+  <data name="manual" text="ручной"/>
+  <data name="auto" text="авто"/>
+  <data name="loc_undef" text="Место. не определено"/>
+  <data name="pos_acc_a" text="0 = Определение местоп. не возможно"/>
+  <data name="pos_acc_b" text="1 = Обычная точность"/>
+  <data name="pos_acc_c" text="2 = Дифференциальный GPS режим"/>
+  <data name="pos_acc_d" text="3 = GPS режим прецизионной точности"/>
+  <data name="meter" text="м."/>
+  <data name="knot" text="уз."/>
 </lang>

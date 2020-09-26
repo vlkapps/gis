@@ -37,6 +37,8 @@
   <data name="rec" text="Route record"/>
   <data name="receiver" text="Receiver"/>
 
+  <data name="new_marker" text="New marker"/>
+
   <data name="ready" text="Ready"/>
 
   <data name="ui" text="UI"/>
@@ -59,6 +61,9 @@
   <data name="intervalRead" text="Interval Reading: "/>
   <data name="millisecond" text=" ms"/>
 
+  <data name="smooth_a" text="Average simple"/>
+  <data name="smooth_b" text="Weighted average"/>
+
   <data name="route" text="Route"/>
   <data name="smoothing_method" text="Smoothing method"/>
   <data name="width_line" text="Line width"/>
@@ -70,6 +75,7 @@
 
   <data name="error" text="Error!"/>
   <data name="folder_exists" text="The folder already exists"/>
+  <data name="file_name_exists" text="A file with the given name already exists"/>
 
   <data name="lat" text="Latitude"/>
   <data name="lng" text="Longitude"/>
@@ -96,6 +102,7 @@
   <data name="create" text="Create"/>
 
   <data name="enter_value" text="Enter values"/>
+  <data name="enter_value_error" text="Invalid values entered"/>
 
   <data name="version" text="version "/>
 
@@ -121,4 +128,41 @@
 
   <data name="receiver_not" text="Receiver not connected"/>
   <data name="receiver_wait" text="Waiting for a message"/>
+  <data name="receiver_wait_" text="Waiting for the receiver"/>
+
+  <data name="time" text="Time"/>
+  <data name="tr_angle" text="Heading"/>
+  <data name="date" text="Date"/>
+  <data name="magnetic" text="Magnetic declination"/>
+  <data name="direction" text="Direction"/>
+  <data name="orig_msg" text="Original message"/>
+  <data name="num_of_msg" text="Number of messages"/>
+  <data name="num_msg" text="Message number"/>
+  <data name="num_visible_sat" text="Number of visible satellites"/>
+  <data name="prn" text="PRN satellite number"/>
+  <data name="height" text="Height"/>
+  <data name="azim" text="Azimuth"/>
+  <data name="signal_noise" text="Signal to noise ratio"/>
+  <data name="mode" text="Mode"/>
+  <data name="satellites" text="Satellites"/>
+  <data name="pdop" text="PDOP"/>
+  <data name="hdop" text="HDOP"/>
+  <data name="vdop" text="VDOP"/>
+  <data name="status" text="Status"/>
+  <data name="num_sat" text="Number of satellites in use"/>
+  <data name="antenna_height" text="Antenna height"/>
+  <data name="geo_diff" text="Geoidal difference"/>
+  <data name="age_diff" text="Age of diff. data"/>
+  <data name="west_" text="west"/>
+  <data name="east_" text="east"/>
+  <data name="db" text="dB"/>
+  <data name="manual" text="manual"/>
+  <data name="auto" text="auto"/>
+  <data name="loc_undef" text="Location undefined"/>
+  <data name="pos_acc_a" text="0 = Locating not possible"/>
+  <data name="pos_acc_b" text="1 = Normal precision"/>
+  <data name="pos_acc_c" text="2 = Differential GPS Mode"/>
+  <data name="pos_acc_d" text="3 = GPS precision mode"/>
+  <data name="meter" text="m."/>
+  <data name="knot" text="kn"/>
 </lang>

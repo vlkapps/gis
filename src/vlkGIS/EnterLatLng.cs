@@ -66,7 +66,7 @@ namespace vlkGIS
                 !double.TryParse(textBox2.Text, NumberStyles.Any, CultureInfo.CurrentCulture, out Lng))
             {
                 button1.DialogResult = DialogResult.Cancel;
-                MessageBox.Show("Введены неверные значения");
+                MessageBox.Show(Form1.lang.getString("enter_value_error"));
             }
         }
     }

@@ -815,7 +815,6 @@
             this.MarkerAdd_toolStripButton.Margin = new System.Windows.Forms.Padding(3);
             this.MarkerAdd_toolStripButton.Name = "MarkerAdd_toolStripButton";
             this.MarkerAdd_toolStripButton.Size = new System.Drawing.Size(30, 30);
-            this.MarkerAdd_toolStripButton.Text = "toolStripButton7";
             this.MarkerAdd_toolStripButton.Click += new System.EventHandler(this.MarkerAdd_toolStripButton_Click);
             // 
             // toolStripSeparator8
@@ -914,6 +913,7 @@
             this.MinimumSize = new System.Drawing.Size(400, 300);
             this.Name = "Form1";
             this.Padding = new System.Windows.Forms.Padding(2);
+            this.ShowIcon = false;
             this.Text = "Form";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);

@@ -462,9 +462,6 @@
             this.comboBox6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.comboBox6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Items.AddRange(new object[] {
-            "Среднее простое",
-            "Среднее взешенное"});
             this.comboBox6.Location = new System.Drawing.Point(60, 4);
             this.comboBox6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.comboBox6.Name = "comboBox6";
