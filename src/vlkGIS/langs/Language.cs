@@ -10,6 +10,11 @@ namespace vlkGIS.langs
 
         public Language(string langCode)
         {
+            getLang(langCode);
+        }
+
+        public void getLang(string langCode)
+        {
             infodoc = new XmlDocument();
             infodoc.Load("langs\\" + langCode + ".xml");
             nodeList = infodoc.SelectNodes("lang/data");

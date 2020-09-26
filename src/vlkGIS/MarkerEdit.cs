@@ -33,7 +33,7 @@ namespace vlkGIS
             label6.Text = Form1.lang.getString("color");
             comboBox3.Items.AddRange(new string[] { Form1.lang.getString("aqua"), Form1.lang.getString("yellow"), Form1.lang.getString("green"), Form1.lang.getString("red"), Form1.lang.getString("orange"), Form1.lang.getString("pink"), Form1.lang.getString("blue"), Form1.lang.getString("purple") });
 
-            удалитьToolStripMenuItem.Text = Form1.lang.getString("delete");
+            DeleteToolStripMenuItem.Text = Form1.lang.getString("delete");
 
             textBox1.Text = lat;
             textBox2.Text = lng;
@@ -209,7 +209,7 @@ namespace vlkGIS
             }
         }
 
-        private void удалитьToolStripMenuItem_Click(object sender, EventArgs e)
+        private void DeleteToolStripMenuItem_Click(object sender, EventArgs e)
         {
             if (listView1.SelectedItems.Count == 1)
             {

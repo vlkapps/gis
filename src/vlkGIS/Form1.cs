@@ -349,13 +349,22 @@ namespace vlkGIS
             RecStop_toolStripButton.Text = lang.getString("rec");
             GPS_indicator.Text = lang.getString("receiver");
 
+            if (GPS_tab_toolStripButton.Checked)
+            {
+                TitleTab_label.Text = panel2.Tag.ToString();
+            } 
+            else if (Markers_toolStripButton.Checked)
+            {
+                TitleTab_label.Text = panel1.Tag.ToString();
+            }
+
             label10.Text = "--- " + lang.getString("kmh");
 
             ToolStripLabelTextTemp = lang.getString("ready");
             toolStripStatusLabel1.Text = ToolStripLabelTextTemp;
 
-            изменитьToolStripMenuItem.Text = lang.getString("edit");
-            удалитьToolStripMenuItem.Text = lang.getString("delete");
+            EditToolStripMenuItem.Text = lang.getString("edit");
+            DeleteToolStripMenuItem.Text = lang.getString("delete");
 
             // Название окна
             Text = Application.ProductName;
