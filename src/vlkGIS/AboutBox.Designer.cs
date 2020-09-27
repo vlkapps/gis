@@ -27,135 +27,135 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.okButton = new System.Windows.Forms.Button();
-            this.labelCompanyName = new System.Windows.Forms.Label();
-            this.labelCopyright = new System.Windows.Forms.Label();
-            this.labelVersion = new System.Windows.Forms.Label();
-            this.labelProductName = new System.Windows.Forms.Label();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel3 = new System.Windows.Forms.LinkLabel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.OK_Button = new System.Windows.Forms.Button();
+            this.CompanyName_Label = new System.Windows.Forms.Label();
+            this.Copyright_Label = new System.Windows.Forms.Label();
+            this.Version_Label = new System.Windows.Forms.Label();
+            this.ProductName_Label = new System.Windows.Forms.Label();
+            this.Web_linkLabel = new System.Windows.Forms.LinkLabel();
+            this.Mail1_linkLabel = new System.Windows.Forms.LinkLabel();
+            this.Mail2_linkLabel = new System.Windows.Forms.LinkLabel();
+            this.Logo_Company_pictureBox = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.Logo_Company_pictureBox)).BeginInit();
             this.SuspendLayout();
             // 
-            // okButton
+            // OK_Button
             // 
-            this.okButton.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.okButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.okButton.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.okButton.ForeColor = System.Drawing.Color.Black;
-            this.okButton.Location = new System.Drawing.Point(173, 301);
-            this.okButton.Name = "okButton";
-            this.okButton.Size = new System.Drawing.Size(75, 23);
-            this.okButton.TabIndex = 24;
-            this.okButton.Text = "&ОК";
+            this.OK_Button.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.OK_Button.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.OK_Button.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.OK_Button.ForeColor = System.Drawing.Color.Black;
+            this.OK_Button.Location = new System.Drawing.Point(173, 301);
+            this.OK_Button.Name = "OK_Button";
+            this.OK_Button.Size = new System.Drawing.Size(75, 23);
+            this.OK_Button.TabIndex = 24;
+            this.OK_Button.Text = "&ОК";
             // 
-            // labelCompanyName
+            // CompanyName_Label
             // 
-            this.labelCompanyName.AutoSize = true;
-            this.labelCompanyName.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelCompanyName.Location = new System.Drawing.Point(155, 147);
-            this.labelCompanyName.Margin = new System.Windows.Forms.Padding(6, 0, 3, 0);
-            this.labelCompanyName.Name = "labelCompanyName";
-            this.labelCompanyName.Size = new System.Drawing.Size(198, 19);
-            this.labelCompanyName.TabIndex = 22;
-            this.labelCompanyName.Text = "Denis Volkov - VLK Apps";
-            this.labelCompanyName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.CompanyName_Label.AutoSize = true;
+            this.CompanyName_Label.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.CompanyName_Label.Location = new System.Drawing.Point(155, 147);
+            this.CompanyName_Label.Margin = new System.Windows.Forms.Padding(6, 0, 3, 0);
+            this.CompanyName_Label.Name = "CompanyName_Label";
+            this.CompanyName_Label.Size = new System.Drawing.Size(198, 19);
+            this.CompanyName_Label.TabIndex = 22;
+            this.CompanyName_Label.Text = "Denis Volkov - VLK Apps";
+            this.CompanyName_Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // labelCopyright
+            // Copyright_Label
             // 
-            this.labelCopyright.Location = new System.Drawing.Point(53, 89);
-            this.labelCopyright.Margin = new System.Windows.Forms.Padding(6, 0, 3, 0);
-            this.labelCopyright.Name = "labelCopyright";
-            this.labelCopyright.Size = new System.Drawing.Size(315, 16);
-            this.labelCopyright.TabIndex = 21;
-            this.labelCopyright.Text = "author";
-            this.labelCopyright.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Copyright_Label.Location = new System.Drawing.Point(53, 89);
+            this.Copyright_Label.Margin = new System.Windows.Forms.Padding(6, 0, 3, 0);
+            this.Copyright_Label.Name = "Copyright_Label";
+            this.Copyright_Label.Size = new System.Drawing.Size(315, 16);
+            this.Copyright_Label.TabIndex = 21;
+            this.Copyright_Label.Text = "author";
+            this.Copyright_Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // labelVersion
+            // Version_Label
             // 
-            this.labelVersion.Location = new System.Drawing.Point(51, 59);
-            this.labelVersion.Margin = new System.Windows.Forms.Padding(6, 0, 3, 0);
-            this.labelVersion.Name = "labelVersion";
-            this.labelVersion.Size = new System.Drawing.Size(318, 16);
-            this.labelVersion.TabIndex = 0;
-            this.labelVersion.Text = "ver";
-            this.labelVersion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Version_Label.Location = new System.Drawing.Point(51, 59);
+            this.Version_Label.Margin = new System.Windows.Forms.Padding(6, 0, 3, 0);
+            this.Version_Label.Name = "Version_Label";
+            this.Version_Label.Size = new System.Drawing.Size(318, 16);
+            this.Version_Label.TabIndex = 0;
+            this.Version_Label.Text = "ver";
+            this.Version_Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // labelProductName
+            // ProductName_Label
             // 
-            this.labelProductName.Font = new System.Drawing.Font("Arial", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelProductName.Location = new System.Drawing.Point(136, 12);
-            this.labelProductName.Margin = new System.Windows.Forms.Padding(6, 0, 3, 0);
-            this.labelProductName.Name = "labelProductName";
-            this.labelProductName.Size = new System.Drawing.Size(148, 37);
-            this.labelProductName.TabIndex = 19;
-            this.labelProductName.Text = "vlkGIS";
-            this.labelProductName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.ProductName_Label.Font = new System.Drawing.Font("Arial", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ProductName_Label.Location = new System.Drawing.Point(136, 12);
+            this.ProductName_Label.Margin = new System.Windows.Forms.Padding(6, 0, 3, 0);
+            this.ProductName_Label.Name = "ProductName_Label";
+            this.ProductName_Label.Size = new System.Drawing.Size(148, 37);
+            this.ProductName_Label.TabIndex = 19;
+            this.ProductName_Label.Text = "vlkGIS";
+            this.ProductName_Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // linkLabel1
+            // Web_linkLabel
             // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(156, 174);
-            this.linkLabel1.Margin = new System.Windows.Forms.Padding(6, 0, 3, 0);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(66, 16);
-            this.linkLabel1.TabIndex = 26;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "vlkapps.ru";
-            this.linkLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LinkLabel1_LinkClicked);
+            this.Web_linkLabel.AutoSize = true;
+            this.Web_linkLabel.Location = new System.Drawing.Point(156, 174);
+            this.Web_linkLabel.Margin = new System.Windows.Forms.Padding(6, 0, 3, 0);
+            this.Web_linkLabel.Name = "Web_linkLabel";
+            this.Web_linkLabel.Size = new System.Drawing.Size(66, 16);
+            this.Web_linkLabel.TabIndex = 26;
+            this.Web_linkLabel.TabStop = true;
+            this.Web_linkLabel.Text = "vlkapps.ru";
+            this.Web_linkLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Web_linkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Web_LinkLabel_LinkClicked);
             // 
-            // linkLabel2
+            // Mail1_linkLabel
             // 
-            this.linkLabel2.AutoSize = true;
-            this.linkLabel2.Location = new System.Drawing.Point(156, 195);
-            this.linkLabel2.Margin = new System.Windows.Forms.Padding(6, 0, 3, 0);
-            this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(114, 16);
-            this.linkLabel2.TabIndex = 27;
-            this.linkLabel2.TabStop = true;
-            this.linkLabel2.Text = "vlkden@yandex.ru";
-            this.linkLabel2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LinkLabel2_LinkClicked);
+            this.Mail1_linkLabel.AutoSize = true;
+            this.Mail1_linkLabel.Location = new System.Drawing.Point(156, 195);
+            this.Mail1_linkLabel.Margin = new System.Windows.Forms.Padding(6, 0, 3, 0);
+            this.Mail1_linkLabel.Name = "Mail1_linkLabel";
+            this.Mail1_linkLabel.Size = new System.Drawing.Size(114, 16);
+            this.Mail1_linkLabel.TabIndex = 27;
+            this.Mail1_linkLabel.TabStop = true;
+            this.Mail1_linkLabel.Text = "vlkden@yandex.ru";
+            this.Mail1_linkLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Mail1_linkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Mail1_LinkLabel_LinkClicked);
             // 
-            // linkLabel3
+            // Mail2_linkLabel
             // 
-            this.linkLabel3.AutoSize = true;
-            this.linkLabel3.Location = new System.Drawing.Point(156, 216);
-            this.linkLabel3.Margin = new System.Windows.Forms.Padding(6, 0, 3, 0);
-            this.linkLabel3.Name = "linkLabel3";
-            this.linkLabel3.Size = new System.Drawing.Size(122, 16);
-            this.linkLabel3.TabIndex = 28;
-            this.linkLabel3.TabStop = true;
-            this.linkLabel3.Text = "support@vlkapps.ru";
-            this.linkLabel3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.linkLabel3.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LinkLabel3_LinkClicked);
+            this.Mail2_linkLabel.AutoSize = true;
+            this.Mail2_linkLabel.Location = new System.Drawing.Point(156, 216);
+            this.Mail2_linkLabel.Margin = new System.Windows.Forms.Padding(6, 0, 3, 0);
+            this.Mail2_linkLabel.Name = "Mail2_linkLabel";
+            this.Mail2_linkLabel.Size = new System.Drawing.Size(122, 16);
+            this.Mail2_linkLabel.TabIndex = 28;
+            this.Mail2_linkLabel.TabStop = true;
+            this.Mail2_linkLabel.Text = "support@vlkapps.ru";
+            this.Mail2_linkLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Mail2_linkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Mail2_LinkLabel_LinkClicked);
             // 
-            // pictureBox2
+            // Logo_Company_pictureBox
             // 
-            this.pictureBox2.Image = global::vlkGIS.Properties.Resources.logo_vlk;
-            this.pictureBox2.Location = new System.Drawing.Point(12, 147);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(131, 131);
-            this.pictureBox2.TabIndex = 30;
-            this.pictureBox2.TabStop = false;
+            this.Logo_Company_pictureBox.Image = global::vlkGIS.Properties.Resources.logo_vlk;
+            this.Logo_Company_pictureBox.Location = new System.Drawing.Point(12, 147);
+            this.Logo_Company_pictureBox.Name = "Logo_Company_pictureBox";
+            this.Logo_Company_pictureBox.Size = new System.Drawing.Size(131, 131);
+            this.Logo_Company_pictureBox.TabIndex = 30;
+            this.Logo_Company_pictureBox.TabStop = false;
             // 
             // AboutBox
             // 
-            this.AcceptButton = this.okButton;
+            this.AcceptButton = this.OK_Button;
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(420, 336);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.labelProductName);
-            this.Controls.Add(this.labelVersion);
-            this.Controls.Add(this.linkLabel3);
-            this.Controls.Add(this.linkLabel1);
-            this.Controls.Add(this.labelCopyright);
-            this.Controls.Add(this.linkLabel2);
-            this.Controls.Add(this.okButton);
-            this.Controls.Add(this.labelCompanyName);
+            this.Controls.Add(this.Logo_Company_pictureBox);
+            this.Controls.Add(this.ProductName_Label);
+            this.Controls.Add(this.Version_Label);
+            this.Controls.Add(this.Mail2_linkLabel);
+            this.Controls.Add(this.Web_linkLabel);
+            this.Controls.Add(this.Copyright_Label);
+            this.Controls.Add(this.Mail1_linkLabel);
+            this.Controls.Add(this.OK_Button);
+            this.Controls.Add(this.CompanyName_Label);
             this.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
@@ -166,21 +166,21 @@
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "About";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Logo_Company_pictureBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.Button okButton;
-        private System.Windows.Forms.Label labelCompanyName;
-        private System.Windows.Forms.Label labelCopyright;
-        private System.Windows.Forms.Label labelVersion;
-        private System.Windows.Forms.Label labelProductName;
-        private System.Windows.Forms.LinkLabel linkLabel1;
-        private System.Windows.Forms.LinkLabel linkLabel2;
-        private System.Windows.Forms.LinkLabel linkLabel3;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button OK_Button;
+        private System.Windows.Forms.Label CompanyName_Label;
+        private System.Windows.Forms.Label Copyright_Label;
+        private System.Windows.Forms.Label Version_Label;
+        private System.Windows.Forms.Label ProductName_Label;
+        private System.Windows.Forms.LinkLabel Web_linkLabel;
+        private System.Windows.Forms.LinkLabel Mail1_linkLabel;
+        private System.Windows.Forms.LinkLabel Mail2_linkLabel;
+        private System.Windows.Forms.PictureBox Logo_Company_pictureBox;
     }
 }

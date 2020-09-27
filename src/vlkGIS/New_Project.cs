@@ -26,7 +26,7 @@ namespace vlkGIS
         // СОЗДАТЬ ПРОЕКТ
         private void CreateButton_Click(object sender, EventArgs e)
         {
-            name = textBox1.Text;
+            name = Name_textBox.Text;
         }
 
         // ОБЗОР ПАПОК
@@ -35,16 +35,16 @@ namespace vlkGIS
             if (folderBrowserDialog1.ShowDialog() == DialogResult.OK)
             {
                 uri = folderBrowserDialog1.SelectedPath;
-                textBox2.Text = uri;
+                Uri_textBox.Text = uri;
             }
         }
 
         private void New_Project_Load(object sender, EventArgs e)
         {
             Text = Form1.lang.getString("create_project");
-            label1.Text = Form1.lang.getString("name_project");
-            label2.Text = Form1.lang.getString("uri");
-            button2.Text = Form1.lang.getString("explore");
+            Name_label.Text = Form1.lang.getString("name_project");
+            Uri_label.Text = Form1.lang.getString("uri");
+            Browse_button.Text = Form1.lang.getString("explore");
             CreateButton.Text = Form1.lang.getString("create");
         }
     }

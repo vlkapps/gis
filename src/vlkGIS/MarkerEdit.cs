@@ -18,102 +18,102 @@ namespace vlkGIS
             InitializeComponent();
 
             Text = Form1.lang.getString("marker");
-            groupBox1.Text = Form1.lang.getString("location");
-            label1.Text = Form1.lang.getString("lat");
-            label2.Text = Form1.lang.getString("lng");
-            comboBox1.Items.AddRange(new string[] { Form1.lang.getString("north"), Form1.lang.getString("south") });
-            comboBox2.Items.AddRange(new string[] { Form1.lang.getString("west"), Form1.lang.getString("east") });
-            label3.Text = Form1.lang.getString("name");
-            label4.Text = Form1.lang.getString("desc");
-            label5.Text = Form1.lang.getString("images");
-            button3.Text = Form1.lang.getString("add");
-            button1.Text = Form1.lang.getString("ok");
-            button2.Text = Form1.lang.getString("cancel");
+            Location_groupBox.Text = Form1.lang.getString("location");
+            Lat_label.Text = Form1.lang.getString("lat");
+            Lng_label.Text = Form1.lang.getString("lng");
+            Lat_comboBox.Items.AddRange(new string[] { Form1.lang.getString("north"), Form1.lang.getString("south") });
+            Lng_comboBox.Items.AddRange(new string[] { Form1.lang.getString("west"), Form1.lang.getString("east") });
+            Name_label.Text = Form1.lang.getString("name");
+            Desc_label.Text = Form1.lang.getString("desc");
+            Images_label.Text = Form1.lang.getString("images");
+            Add_Images_button.Text = Form1.lang.getString("add");
+            OK_button.Text = Form1.lang.getString("ok");
+            Cancel_button.Text = Form1.lang.getString("cancel");
 
-            label6.Text = Form1.lang.getString("color");
-            comboBox3.Items.AddRange(new string[] { Form1.lang.getString("aqua"), Form1.lang.getString("yellow"), Form1.lang.getString("green"), Form1.lang.getString("red"), Form1.lang.getString("orange"), Form1.lang.getString("pink"), Form1.lang.getString("blue"), Form1.lang.getString("purple") });
+            Color_label.Text = Form1.lang.getString("color");
+            Color_comboBox.Items.AddRange(new string[] { Form1.lang.getString("aqua"), Form1.lang.getString("yellow"), Form1.lang.getString("green"), Form1.lang.getString("red"), Form1.lang.getString("orange"), Form1.lang.getString("pink"), Form1.lang.getString("blue"), Form1.lang.getString("purple") });
 
             DeleteToolStripMenuItem.Text = Form1.lang.getString("delete");
 
-            textBox1.Text = lat;
-            textBox2.Text = lng;
-            textBox3.Text = name;
-            textBox4.Text = desc;
+            Lat_textBox.Text = lat;
+            Lng_textBox.Text = lng;
+            Name_textBox.Text = name;
+            Desc_textBox.Text = desc;
             this.date = date;
 
             if (Convert.ToDouble(lat) < 0)
-                comboBox1.SelectedIndex = 1;
+                Lat_comboBox.SelectedIndex = 1;
             else
-                comboBox1.SelectedIndex = 0;
+                Lat_comboBox.SelectedIndex = 0;
 
             if (Convert.ToDouble(lng) < 0)
-                comboBox2.SelectedIndex = 0;
+                Lng_comboBox.SelectedIndex = 0;
             else
-                comboBox2.SelectedIndex = 1;
+                Lng_comboBox.SelectedIndex = 1;
 
             this.pic = pic;
 
             switch (color)
             {
                 case "LightBlue":
-                    comboBox3.SelectedItem = Form1.lang.getString("aqua");
+                    Color_comboBox.SelectedItem = Form1.lang.getString("aqua");
                     break;
                 case "Yellow":
-                    comboBox3.SelectedItem = Form1.lang.getString("yellow");
+                    Color_comboBox.SelectedItem = Form1.lang.getString("yellow");
                     break;
                 case "Green":
-                    comboBox3.SelectedItem = Form1.lang.getString("green");
+                    Color_comboBox.SelectedItem = Form1.lang.getString("green");
                     break;
                 case "Red":
-                    comboBox3.SelectedItem = Form1.lang.getString("red");
+                    Color_comboBox.SelectedItem = Form1.lang.getString("red");
                     break;
                 case "Orange":
-                    comboBox3.SelectedItem = Form1.lang.getString("orange");
+                    Color_comboBox.SelectedItem = Form1.lang.getString("orange");
                     break;
                 case "Pink":
-                    comboBox3.SelectedItem = Form1.lang.getString("pink");
+                    Color_comboBox.SelectedItem = Form1.lang.getString("pink");
                     break;
                 case "Blue":
-                    comboBox3.SelectedItem = Form1.lang.getString("blue");
+                    Color_comboBox.SelectedItem = Form1.lang.getString("blue");
                     break;
                 case "Purple":
-                    comboBox3.SelectedItem = Form1.lang.getString("purple");
+                    Color_comboBox.SelectedItem = Form1.lang.getString("purple");
                     break;
                 case "":
-                    comboBox3.SelectedItem = Form1.lang.getString("blue");
+                    Color_comboBox.SelectedItem = Form1.lang.getString("blue");
                     break;
             }
         }
 
         public string GetLat()
         {
-            if (comboBox1.SelectedIndex == 1)
-                return "-" + textBox1.Text;
+            if (Lat_comboBox.SelectedIndex == 1)
+                return "-" + Lat_textBox.Text;
             else
-                return textBox1.Text;
+                return Lat_textBox.Text;
         }
 
         public string GetLng()
         {
-            if (comboBox2.SelectedIndex == 0)
-                return "-" + textBox2.Text;
+            if (Lng_comboBox.SelectedIndex == 0)
+                return "-" + Lng_textBox.Text;
             else
-                return textBox2.Text;
+                return Lng_textBox.Text;
         }
 
         public string GetName()
         {
-            return textBox3.Text.ToString();
+            return Name_textBox.Text.ToString();
         }
 
         public string GetDesc()
         {
-            return textBox4.Text;
+            return Desc_textBox.Text;
         }
 
         public string GetColor()
         {
-            string g = comboBox3.SelectedItem.ToString();
+            string g = Color_comboBox.SelectedItem.ToString();
             if (g == Form1.lang.getString("aqua"))
                 return "LightBlue";
             else if (g == Form1.lang.getString("yellow"))
@@ -137,9 +137,9 @@ namespace vlkGIS
         public string GetPics()
         {
             string r = "";
-            for (int i = 0; i < listView1.Items.Count; i++)
+            for (int i = 0; i < Images_listView.Items.Count; i++)
             {
-                r += Path.GetFileName(listView1.Items[i].Tag.ToString()) + ",";
+                r += Path.GetFileName(Images_listView.Items[i].Tag.ToString()) + ",";
             }
             if (r == "")
                 return "";
@@ -172,19 +172,19 @@ namespace vlkGIS
                 {
                     Bitmap bitmap = new Bitmap(Form1.path + "\\Markers\\" + date + "\\" + pics[i]);
                     imageList1.Images.Add(pics[i], bitmap);
-                    listView1.Items.Add("");
-                    listView1.Items[i].Tag = pics[i];
-                    listView1.Items[i].ImageKey = pics[i];
+                    Images_listView.Items.Add("");
+                    Images_listView.Items[i].Tag = pics[i];
+                    Images_listView.Items[i].ImageKey = pics[i];
                     bitmap.Dispose();
                 }
             }
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void Add_Images_button_Click(object sender, EventArgs e)
         {
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
-                int g = listView1.Items.Count;
+                int g = Images_listView.Items.Count;
                 for (int i = 0; i < openFileDialog1.FileNames.Length; i++)
                 {
                     string from = openFileDialog1.FileNames[i];
@@ -196,9 +196,9 @@ namespace vlkGIS
                         copyPic += from + ",";
                         Bitmap bitmap = new Bitmap(from);
                         imageList1.Images.Add(fileName, bitmap);
-                        listView1.Items.Add("");
-                        listView1.Items[g + i].Tag = from;
-                        listView1.Items[g + i].ImageKey = fileName;
+                        Images_listView.Items.Add("");
+                        Images_listView.Items[g + i].Tag = from;
+                        Images_listView.Items[g + i].ImageKey = fileName;
                         bitmap.Dispose();
                     }
                     else
@@ -211,26 +211,26 @@ namespace vlkGIS
 
         private void DeleteToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (listView1.SelectedItems.Count == 1)
+            if (Images_listView.SelectedItems.Count == 1)
             {
-                string deleteFile = Form1.path + "\\Markers\\" + date + "\\" + listView1.SelectedItems[0].Tag;
+                string deleteFile = Form1.path + "\\Markers\\" + date + "\\" + Images_listView.SelectedItems[0].Tag;
                 if (File.Exists(deleteFile))
                     deletePic += deleteFile + ",";
 
-                if (copyPic.Contains(listView1.SelectedItems[0].Tag.ToString()))
-                    copyPic = copyPic.Replace(listView1.SelectedItems[0].Tag.ToString() + ",", "");
+                if (copyPic.Contains(Images_listView.SelectedItems[0].Tag.ToString()))
+                    copyPic = copyPic.Replace(Images_listView.SelectedItems[0].Tag.ToString() + ",", "");
 
-                imageList1.Images.RemoveAt(listView1.SelectedItems[0].Index);
-                listView1.SelectedItems[0].Remove();
+                imageList1.Images.RemoveAt(Images_listView.SelectedItems[0].Index);
+                Images_listView.SelectedItems[0].Remove();
             }
         }
 
-        private void listView1_DoubleClick(object sender, EventArgs e)
+        private void Images_listView_DoubleClick(object sender, EventArgs e)
         {
-            if (listView1.SelectedItems.Count == 1)
+            if (Images_listView.SelectedItems.Count == 1)
             {
-                string fileInProject = Form1.path + "\\Markers\\" + date + "\\" + listView1.SelectedItems[0].Tag;
-                string fileOutProject = listView1.SelectedItems[0].Tag.ToString();
+                string fileInProject = Form1.path + "\\Markers\\" + date + "\\" + Images_listView.SelectedItems[0].Tag;
+                string fileOutProject = Images_listView.SelectedItems[0].Tag.ToString();
 
                 if (File.Exists(fileInProject))
                     Process.Start(fileInProject);

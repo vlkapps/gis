@@ -29,212 +29,212 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.Location_groupBox = new System.Windows.Forms.GroupBox();
+            this.Lng_comboBox = new System.Windows.Forms.ComboBox();
+            this.Lat_comboBox = new System.Windows.Forms.ComboBox();
+            this.Lng_textBox = new System.Windows.Forms.TextBox();
+            this.Lat_textBox = new System.Windows.Forms.TextBox();
+            this.Lng_label = new System.Windows.Forms.Label();
+            this.Lat_label = new System.Windows.Forms.Label();
+            this.Name_label = new System.Windows.Forms.Label();
+            this.Name_textBox = new System.Windows.Forms.TextBox();
+            this.Desc_label = new System.Windows.Forms.Label();
+            this.Desc_textBox = new System.Windows.Forms.TextBox();
+            this.Images_label = new System.Windows.Forms.Label();
+            this.Color_label = new System.Windows.Forms.Label();
+            this.Color_comboBox = new System.Windows.Forms.ComboBox();
+            this.OK_button = new System.Windows.Forms.Button();
+            this.Cancel_button = new System.Windows.Forms.Button();
+            this.Add_Images_button = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
-            this.listView1 = new System.Windows.Forms.ListView();
+            this.Images_listView = new System.Windows.Forms.ListView();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.DeleteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.groupBox1.SuspendLayout();
+            this.Location_groupBox.SuspendLayout();
             this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // groupBox1
+            // Location_groupBox
             // 
-            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.Location_groupBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox1.Controls.Add(this.comboBox2);
-            this.groupBox1.Controls.Add(this.comboBox1);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(14, 13);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.groupBox1.Size = new System.Drawing.Size(358, 91);
-            this.groupBox1.TabIndex = 0;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "location";
+            this.Location_groupBox.Controls.Add(this.Lng_comboBox);
+            this.Location_groupBox.Controls.Add(this.Lat_comboBox);
+            this.Location_groupBox.Controls.Add(this.Lng_textBox);
+            this.Location_groupBox.Controls.Add(this.Lat_textBox);
+            this.Location_groupBox.Controls.Add(this.Lng_label);
+            this.Location_groupBox.Controls.Add(this.Lat_label);
+            this.Location_groupBox.Location = new System.Drawing.Point(14, 13);
+            this.Location_groupBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Location_groupBox.Name = "Location_groupBox";
+            this.Location_groupBox.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Location_groupBox.Size = new System.Drawing.Size(358, 91);
+            this.Location_groupBox.TabIndex = 0;
+            this.Location_groupBox.TabStop = false;
+            this.Location_groupBox.Text = "location";
             // 
-            // comboBox2
+            // Lng_comboBox
             // 
-            this.comboBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(256, 55);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(88, 24);
-            this.comboBox2.TabIndex = 13;
+            this.Lng_comboBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.Lng_comboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.Lng_comboBox.FormattingEnabled = true;
+            this.Lng_comboBox.Location = new System.Drawing.Point(256, 55);
+            this.Lng_comboBox.Name = "Lng_comboBox";
+            this.Lng_comboBox.Size = new System.Drawing.Size(88, 24);
+            this.Lng_comboBox.TabIndex = 13;
             // 
-            // comboBox1
+            // Lat_comboBox
             // 
-            this.comboBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(256, 25);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(88, 24);
-            this.comboBox1.TabIndex = 12;
+            this.Lat_comboBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.Lat_comboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.Lat_comboBox.FormattingEnabled = true;
+            this.Lat_comboBox.Location = new System.Drawing.Point(256, 25);
+            this.Lat_comboBox.Name = "Lat_comboBox";
+            this.Lat_comboBox.Size = new System.Drawing.Size(88, 24);
+            this.Lat_comboBox.TabIndex = 12;
             // 
-            // textBox2
+            // Lng_textBox
             // 
-            this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.Lng_textBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox2.Location = new System.Drawing.Point(71, 56);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(179, 22);
-            this.textBox2.TabIndex = 11;
+            this.Lng_textBox.Location = new System.Drawing.Point(71, 56);
+            this.Lng_textBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Lng_textBox.Name = "Lng_textBox";
+            this.Lng_textBox.Size = new System.Drawing.Size(179, 22);
+            this.Lng_textBox.TabIndex = 11;
             // 
-            // textBox1
+            // Lat_textBox
             // 
-            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.Lat_textBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox1.Location = new System.Drawing.Point(71, 26);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(179, 22);
-            this.textBox1.TabIndex = 10;
+            this.Lat_textBox.Location = new System.Drawing.Point(71, 26);
+            this.Lat_textBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Lat_textBox.Name = "Lat_textBox";
+            this.Lat_textBox.Size = new System.Drawing.Size(179, 22);
+            this.Lat_textBox.TabIndex = 10;
             // 
-            // label2
+            // Lng_label
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 60);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(25, 16);
-            this.label2.TabIndex = 9;
-            this.label2.Text = "lng";
+            this.Lng_label.AutoSize = true;
+            this.Lng_label.Location = new System.Drawing.Point(6, 60);
+            this.Lng_label.Name = "Lng_label";
+            this.Lng_label.Size = new System.Drawing.Size(25, 16);
+            this.Lng_label.TabIndex = 9;
+            this.Lng_label.Text = "lng";
             // 
-            // label1
+            // Lat_label
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 29);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(22, 16);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "lat";
+            this.Lat_label.AutoSize = true;
+            this.Lat_label.Location = new System.Drawing.Point(6, 29);
+            this.Lat_label.Name = "Lat_label";
+            this.Lat_label.Size = new System.Drawing.Size(22, 16);
+            this.Lat_label.TabIndex = 8;
+            this.Lat_label.Text = "lat";
             // 
-            // label3
+            // Name_label
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(20, 117);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(40, 16);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "name";
+            this.Name_label.AutoSize = true;
+            this.Name_label.Location = new System.Drawing.Point(20, 117);
+            this.Name_label.Name = "Name_label";
+            this.Name_label.Size = new System.Drawing.Size(40, 16);
+            this.Name_label.TabIndex = 1;
+            this.Name_label.Text = "name";
             // 
-            // textBox3
+            // Name_textBox
             // 
-            this.textBox3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.Name_textBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox3.Location = new System.Drawing.Point(91, 114);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(267, 22);
-            this.textBox3.TabIndex = 2;
+            this.Name_textBox.Location = new System.Drawing.Point(91, 114);
+            this.Name_textBox.Name = "Name_textBox";
+            this.Name_textBox.Size = new System.Drawing.Size(267, 22);
+            this.Name_textBox.TabIndex = 2;
             // 
-            // label4
+            // Desc_label
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(20, 148);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(36, 16);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "desc";
+            this.Desc_label.AutoSize = true;
+            this.Desc_label.Location = new System.Drawing.Point(20, 148);
+            this.Desc_label.Name = "Desc_label";
+            this.Desc_label.Size = new System.Drawing.Size(36, 16);
+            this.Desc_label.TabIndex = 3;
+            this.Desc_label.Text = "desc";
             // 
-            // textBox4
+            // Desc_textBox
             // 
-            this.textBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.Desc_textBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox4.Location = new System.Drawing.Point(23, 167);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(335, 146);
-            this.textBox4.TabIndex = 4;
+            this.Desc_textBox.Location = new System.Drawing.Point(23, 167);
+            this.Desc_textBox.Multiline = true;
+            this.Desc_textBox.Name = "Desc_textBox";
+            this.Desc_textBox.Size = new System.Drawing.Size(335, 146);
+            this.Desc_textBox.TabIndex = 4;
             // 
-            // label5
+            // Images_label
             // 
-            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(20, 326);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(50, 16);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "images";
+            this.Images_label.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.Images_label.AutoSize = true;
+            this.Images_label.Location = new System.Drawing.Point(20, 326);
+            this.Images_label.Name = "Images_label";
+            this.Images_label.Size = new System.Drawing.Size(50, 16);
+            this.Images_label.TabIndex = 5;
+            this.Images_label.Text = "images";
             // 
-            // label6
+            // Color_label
             // 
-            this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(20, 460);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(36, 16);
-            this.label6.TabIndex = 7;
-            this.label6.Text = "color";
+            this.Color_label.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.Color_label.AutoSize = true;
+            this.Color_label.Location = new System.Drawing.Point(20, 460);
+            this.Color_label.Name = "Color_label";
+            this.Color_label.Size = new System.Drawing.Size(36, 16);
+            this.Color_label.TabIndex = 7;
+            this.Color_label.Text = "color";
             // 
-            // comboBox3
+            // Color_comboBox
             // 
-            this.comboBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.comboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(63, 457);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(162, 24);
-            this.comboBox3.TabIndex = 8;
+            this.Color_comboBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.Color_comboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.Color_comboBox.FormattingEnabled = true;
+            this.Color_comboBox.Location = new System.Drawing.Point(63, 457);
+            this.Color_comboBox.Name = "Color_comboBox";
+            this.Color_comboBox.Size = new System.Drawing.Size(162, 24);
+            this.Color_comboBox.TabIndex = 8;
             // 
-            // button1
+            // OK_button
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(297, 508);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 9;
-            this.button1.Text = "ok";
-            this.button1.UseVisualStyleBackColor = true;
+            this.OK_button.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.OK_button.DialogResult = System.Windows.Forms.DialogResult.OK;
+            this.OK_button.ForeColor = System.Drawing.Color.Black;
+            this.OK_button.Location = new System.Drawing.Point(297, 508);
+            this.OK_button.Name = "OK_button";
+            this.OK_button.Size = new System.Drawing.Size(75, 23);
+            this.OK_button.TabIndex = 9;
+            this.OK_button.Text = "ok";
+            this.OK_button.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // Cancel_button
             // 
-            this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button2.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(216, 508);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 10;
-            this.button2.Text = "cancel";
-            this.button2.UseVisualStyleBackColor = true;
+            this.Cancel_button.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.Cancel_button.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.Cancel_button.ForeColor = System.Drawing.Color.Black;
+            this.Cancel_button.Location = new System.Drawing.Point(216, 508);
+            this.Cancel_button.Name = "Cancel_button";
+            this.Cancel_button.Size = new System.Drawing.Size(75, 23);
+            this.Cancel_button.TabIndex = 10;
+            this.Cancel_button.Text = "cancel";
+            this.Cancel_button.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // Add_Images_button
             // 
-            this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button3.ForeColor = System.Drawing.Color.Black;
-            this.button3.Location = new System.Drawing.Point(236, 319);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(122, 23);
-            this.button3.TabIndex = 11;
-            this.button3.Text = "add";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.Add_Images_button.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.Add_Images_button.ForeColor = System.Drawing.Color.Black;
+            this.Add_Images_button.Location = new System.Drawing.Point(236, 319);
+            this.Add_Images_button.Name = "Add_Images_button";
+            this.Add_Images_button.Size = new System.Drawing.Size(122, 23);
+            this.Add_Images_button.TabIndex = 11;
+            this.Add_Images_button.Text = "add";
+            this.Add_Images_button.UseVisualStyleBackColor = true;
+            this.Add_Images_button.Click += new System.EventHandler(this.Add_Images_button_Click);
             // 
             // openFileDialog1
             // 
@@ -248,25 +248,25 @@
             this.imageList1.ImageSize = new System.Drawing.Size(94, 74);
             this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
             // 
-            // listView1
+            // Images_listView
             // 
-            this.listView1.Alignment = System.Windows.Forms.ListViewAlignment.Left;
-            this.listView1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            this.Images_listView.Alignment = System.Windows.Forms.ListViewAlignment.Left;
+            this.Images_listView.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.listView1.BackColor = System.Drawing.Color.Gray;
-            this.listView1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.listView1.ContextMenuStrip = this.contextMenuStrip1;
-            this.listView1.Font = new System.Drawing.Font("Arial", 1F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.listView1.HideSelection = false;
-            this.listView1.LabelWrap = false;
-            this.listView1.LargeImageList = this.imageList1;
-            this.listView1.Location = new System.Drawing.Point(23, 345);
-            this.listView1.MultiSelect = false;
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(335, 100);
-            this.listView1.TabIndex = 12;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            this.listView1.DoubleClick += new System.EventHandler(this.listView1_DoubleClick);
+            this.Images_listView.BackColor = System.Drawing.Color.Gray;
+            this.Images_listView.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Images_listView.ContextMenuStrip = this.contextMenuStrip1;
+            this.Images_listView.Font = new System.Drawing.Font("Arial", 1F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.Images_listView.HideSelection = false;
+            this.Images_listView.LabelWrap = false;
+            this.Images_listView.LargeImageList = this.imageList1;
+            this.Images_listView.Location = new System.Drawing.Point(23, 345);
+            this.Images_listView.MultiSelect = false;
+            this.Images_listView.Name = "Images_listView";
+            this.Images_listView.Size = new System.Drawing.Size(335, 100);
+            this.Images_listView.TabIndex = 12;
+            this.Images_listView.UseCompatibleStateImageBehavior = false;
+            this.Images_listView.DoubleClick += new System.EventHandler(this.Images_listView_DoubleClick);
             // 
             // contextMenuStrip1
             // 
@@ -287,18 +287,18 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(383, 543);
-            this.Controls.Add(this.listView1);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.Images_listView);
+            this.Controls.Add(this.Add_Images_button);
+            this.Controls.Add(this.Cancel_button);
+            this.Controls.Add(this.OK_button);
+            this.Controls.Add(this.Color_comboBox);
+            this.Controls.Add(this.Color_label);
+            this.Controls.Add(this.Images_label);
+            this.Controls.Add(this.Desc_textBox);
+            this.Controls.Add(this.Desc_label);
+            this.Controls.Add(this.Name_textBox);
+            this.Controls.Add(this.Name_label);
+            this.Controls.Add(this.Location_groupBox);
             this.Font = new System.Drawing.Font("Arial", 9.75F);
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "MarkerEdit";
@@ -306,8 +306,8 @@
             this.ShowInTaskbar = false;
             this.Text = "Marker";
             this.Load += new System.EventHandler(this.MarkerEdit_Load);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.Location_groupBox.ResumeLayout(false);
+            this.Location_groupBox.PerformLayout();
             this.contextMenuStrip1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -316,26 +316,26 @@
 
         #endregion
 
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.GroupBox Location_groupBox;
+        private System.Windows.Forms.ComboBox Lng_comboBox;
+        private System.Windows.Forms.ComboBox Lat_comboBox;
+        private System.Windows.Forms.TextBox Lng_textBox;
+        private System.Windows.Forms.TextBox Lat_textBox;
+        private System.Windows.Forms.Label Lng_label;
+        private System.Windows.Forms.Label Lat_label;
+        private System.Windows.Forms.Label Name_label;
+        private System.Windows.Forms.TextBox Name_textBox;
+        private System.Windows.Forms.Label Desc_label;
+        private System.Windows.Forms.TextBox Desc_textBox;
+        private System.Windows.Forms.Label Images_label;
+        private System.Windows.Forms.Label Color_label;
+        private System.Windows.Forms.ComboBox Color_comboBox;
+        private System.Windows.Forms.Button OK_button;
+        private System.Windows.Forms.Button Cancel_button;
+        private System.Windows.Forms.Button Add_Images_button;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.ImageList imageList1;
-        private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.ListView Images_listView;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.ToolStripMenuItem DeleteToolStripMenuItem;
     }
